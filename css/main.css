@@ -103,6 +103,8 @@ body {
 ul, 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
  
 a {
@@ -114,6 +116,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
  
 h3, 
@@ -231,9 +234,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -517,6 +528,16 @@ input[type=button] {
       margin: 100px 0;
     }
  
+    h2 {
+      font-size: 2.25em;
+      line-height: 1.333;
+    }
+  
+    h3 {
+        font-size: 1.5em;
+        line-height: 1.25;
+    }
+
     /* Header */
  
     header {
@@ -534,7 +555,7 @@ input[type=button] {
     }
  
     header nav {
-      width: 30%;
+      width: 20%;
     }
  
     header nav ul {
@@ -586,7 +607,7 @@ input[type=button] {
     }
  
     .features .features-item-description {
-      width: 50%;
+      width: 62%;
     }
 
     .features i {
